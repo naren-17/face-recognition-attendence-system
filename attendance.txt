@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <img src="logo.jpg" alt="X Logo" class="logo">
+        </div>
+        <div class="right-side">
+            <h1>Happening now</h1>
+            <h2>Join today.</h2>
+            <form>
+
+                <div class="input-group">
+                    <button class="sign-in-btn apple-btn">
+                        <img src="apple-icon.jpg" alt="Apple Icon"> Sign up with Apple
+                    </button>
+                </div>
+                <div class="input-group">
+                    <span class="or">or</span>
+                </div>
+                <div class="input-group">
+                    <button class="create-account-btn">Create account</button>
+                </div>
+                <p class="terms">
+                    By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use.
+                </p>
+            </form>
+            <p class="sign-in-text">Already have an account? <a href="#">Sign in</a></p>
+        </div>
+    </div>
+</body>
+</html>
